@@ -4,7 +4,7 @@ const bcrypt = require('bcryptjs');
 const Users = require('./auth-model');
 
 const generateToken = require('./generateToken');
-const authenticate = require('./authenticate-middleware');
+//const authenticate = require('./authenticate-middleware');
 
 router.post('/register', (req, res) => {
   const user = req.body;
